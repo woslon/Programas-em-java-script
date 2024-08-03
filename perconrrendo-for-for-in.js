@@ -1,3 +1,6 @@
+// o for in é utilizado para percorrer objetos 
+//o for in usado geralmente para objetos não iteráveis ​​(acessar propriedades)
+
 let produtos = [
     { id: 1, nome: "pizza", preco: 50 },
     { id: 2, nome: "macarronada", preco: 25 },
@@ -7,7 +10,6 @@ let produtos = [
 
 // percorrendo com for  e for-in para percorrer o objeto
 // quando for neceessario utilize for ... in para percorrer um objeto
-// a propriedade é interada
 
 let desconto = 5;
 
